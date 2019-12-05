@@ -6,7 +6,6 @@ import org.springframework.stereotype.Repository;
 
 import ca.arco.curso.spring.domain.Departamento;
 
-@Repository
 public interface DepartamentoDao {
 
 	void save(Departamento departamento);
